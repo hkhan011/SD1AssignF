@@ -1,0 +1,6 @@
+[console_scripts]
+cmd_mixer = trajectory_tracking_control.cmd_mixer:main
+pid_controller = trajectory_tracking_control.pid_controller:main
+pure_pursuit = trajectory_tracking_control.pure_pursuit:main
+waypoint_reader = trajectory_tracking_control.waypoint_reader:main
+
