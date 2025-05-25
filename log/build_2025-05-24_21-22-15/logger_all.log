@@ -1,0 +1,180 @@
+[0.355s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.356s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f34886c80a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3488697a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3488697a60>>)
+[0.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.657s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/workspace/ros2_ws'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extensions ['colcon_meta']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extension 'colcon_meta'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extensions ['ros']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_environment) by extension 'ros'
+[0.722s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_environment' with type 'ros.ament_python' and name 'gazebo_environment'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extension 'colcon_pkg'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extensions ['colcon_meta']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extensions ['ros']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_tracking_control) by extension 'ros'
+[0.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_tracking_control' with type 'ros.ament_python' and name 'trajectory_tracking_control'
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.833s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.867s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/workspace/ros2_ws/install
+[0.870s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/humble
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'cmake_target' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'cmake_clean_cache' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'cmake_clean_first' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'cmake_force_configure' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'ament_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'catkin_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'gazebo_environment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.938s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_environment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment', 'merge_install': False, 'path': '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment', 'symlink_install': False, 'test_result_base': None}
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'cmake_target' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tracking_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.941s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_tracking_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control', 'merge_install': False, 'path': '/home/ubuntu/workspace/ros2_ws/src/trajectory_tracking_control', 'symlink_install': False, 'test_result_base': None}
+[0.941s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.942s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.943s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment' with build type 'ament_python'
+[0.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_environment', 'ament_prefix_path')
+[0.953s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/hook/ament_prefix_path.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/hook/ament_prefix_path.dsv'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/hook/ament_prefix_path.sh'
+[1.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.058s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/workspace/ros2_ws/src/trajectory_tracking_control' with build type 'ament_python'
+[1.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_tracking_control', 'ament_prefix_path')
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/hook/ament_prefix_path.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/hook/ament_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/hook/ament_prefix_path.sh'
+[1.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.970s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment'
+[1.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.842s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/workspace/ros2_ws/src/trajectory_tracking_control'
+[2.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_environment build --build-base /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build install --record /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log --single-version-externally-managed install_data
+[4.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build
+[5.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control' returned '0': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build
+[5.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/workspace/ros2_ws/src/trajectory_tracking_control': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_tracking_control build --build-base /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build install --record /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/install.log --single-version-externally-managed install_data --force
+[6.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment' returned '0': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_environment build --build-base /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build install --record /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log --single-version-externally-managed install_data
+[6.998s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment' for CMake module files
+[7.048s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment' for CMake config files
+[7.147s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib'
+[7.151s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/bin'
+[7.152s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/pkgconfig/gazebo_environment.pc'
+[7.155s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages'
+[7.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_environment', 'pythonpath')
+[7.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/hook/pythonpath.ps1'
+[7.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/hook/pythonpath.dsv'
+[7.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/hook/pythonpath.sh'
+[7.202s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/bin'
+[7.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_environment)
+[7.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/package.ps1'
+[7.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/package.dsv'
+[7.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/package.sh'
+[7.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/package.bash'
+[7.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/package.zsh'
+[7.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/colcon-core/packages/gazebo_environment)
+[8.508s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control' for CMake module files
+[8.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/workspace/ros2_ws/src/trajectory_tracking_control' returned '0': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_tracking_control build --build-base /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build install --record /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/install.log --single-version-externally-managed install_data --force
+[8.574s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control' for CMake config files
+[8.675s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib'
+[8.680s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/bin'
+[8.681s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/pkgconfig/trajectory_tracking_control.pc'
+[8.683s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages'
+[8.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_tracking_control', 'pythonpath')
+[8.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/hook/pythonpath.ps1'
+[8.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/hook/pythonpath.dsv'
+[8.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/hook/pythonpath.sh'
+[8.729s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/bin'
+[8.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_tracking_control)
+[8.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/package.ps1'
+[8.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/package.dsv'
+[8.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/package.sh'
+[8.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/package.bash'
+[8.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/package.zsh'
+[8.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/colcon-core/packages/trajectory_tracking_control)
+[8.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.801s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.801s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.801s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.830s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.830s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.830s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.984s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/ros2_ws/install/local_setup.ps1'
+[8.992s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/workspace/ros2_ws/install/_local_setup_util_ps1.py'
+[8.999s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/ros2_ws/install/setup.ps1'
+[9.019s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/ros2_ws/install/local_setup.sh'
+[9.024s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/workspace/ros2_ws/install/_local_setup_util_sh.py'
+[9.029s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/ros2_ws/install/setup.sh'
+[9.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/ros2_ws/install/local_setup.bash'
+[9.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/ros2_ws/install/setup.bash'
+[9.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/workspace/ros2_ws/install/local_setup.zsh'
+[9.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/workspace/ros2_ws/install/setup.zsh'

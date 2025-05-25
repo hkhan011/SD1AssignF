@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (-) JobUnselected: {'identifier': 'gazebo_environment'}
+[0.000604] (trajectory_tracking_control) JobQueued: {'identifier': 'trajectory_tracking_control', 'dependencies': OrderedDict()}
+[0.001027] (trajectory_tracking_control) JobStarted: {'identifier': 'trajectory_tracking_control'}
+[0.098278] (-) TimerEvent: {}
+[0.198818] (-) TimerEvent: {}
+[0.299317] (-) TimerEvent: {}
+[0.399902] (-) TimerEvent: {}
+[0.500439] (-) TimerEvent: {}
+[0.600976] (-) TimerEvent: {}
+[0.701514] (-) TimerEvent: {}
+[0.802015] (-) TimerEvent: {}
+[0.902503] (-) TimerEvent: {}
+[1.002988] (-) TimerEvent: {}
+[1.105674] (-) TimerEvent: {}
+[1.206139] (-) TimerEvent: {}
+[1.306621] (-) TimerEvent: {}
+[1.407205] (-) TimerEvent: {}
+[1.507732] (-) TimerEvent: {}
+[1.608215] (-) TimerEvent: {}
+[1.708690] (-) TimerEvent: {}
+[1.809196] (-) TimerEvent: {}
+[1.878201] (trajectory_tracking_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control', 'env': {'VNCDESKTOP': '26dfb9747a27:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '26dfb9747a27', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-dDVf3zBZAC,guid=f262a9b557af53e404016dc96831f4bd', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-YM8K72', 'COLCON_PREFIX_PATH': '/home/ubuntu/workspace/ros2_ws/install', 'ROS_DISTRO': 'humble', 'WINDOWID': '33554438', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/26dfb9747a27:@/tmp/.ICE-unix/75,unix/26dfb9747a27:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-YM8K72/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control:/opt/ros/humble', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control', 'PYTHONPATH': '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[1.909328] (-) TimerEvent: {}
+[2.009822] (-) TimerEvent: {}
+[2.110315] (-) TimerEvent: {}
+[2.210827] (-) TimerEvent: {}
+[2.311305] (-) TimerEvent: {}
+[2.411824] (-) TimerEvent: {}
+[2.512342] (-) TimerEvent: {}
+[2.612887] (-) TimerEvent: {}
+[2.713357] (-) TimerEvent: {}
+[2.726804] (trajectory_tracking_control) StdoutLine: {'line': b'running develop\n'}
+[2.813495] (-) TimerEvent: {}
+[2.914028] (-) TimerEvent: {}
+[3.014625] (-) TimerEvent: {}
+[3.045272] (trajectory_tracking_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.046119] (trajectory_tracking_control) StdoutLine: {'line': b'creating trajectory_tracking_control.egg-info\n'}
+[3.047218] (trajectory_tracking_control) StdoutLine: {'line': b'writing trajectory_tracking_control.egg-info/PKG-INFO\n'}
+[3.053030] (trajectory_tracking_control) StdoutLine: {'line': b'writing dependency_links to trajectory_tracking_control.egg-info/dependency_links.txt\n'}
+[3.056634] (trajectory_tracking_control) StdoutLine: {'line': b'writing entry points to trajectory_tracking_control.egg-info/entry_points.txt\n'}
+[3.060395] (trajectory_tracking_control) StdoutLine: {'line': b'writing requirements to trajectory_tracking_control.egg-info/requires.txt\n'}
+[3.062993] (trajectory_tracking_control) StdoutLine: {'line': b'writing top-level names to trajectory_tracking_control.egg-info/top_level.txt\n'}
+[3.066834] (trajectory_tracking_control) StdoutLine: {'line': b"writing manifest file 'trajectory_tracking_control.egg-info/SOURCES.txt'\n"}
+[3.114766] (-) TimerEvent: {}
+[3.115641] (trajectory_tracking_control) StdoutLine: {'line': b"reading manifest file 'trajectory_tracking_control.egg-info/SOURCES.txt'\n"}
+[3.163933] (trajectory_tracking_control) StdoutLine: {'line': b"writing manifest file 'trajectory_tracking_control.egg-info/SOURCES.txt'\n"}
+[3.176187] (trajectory_tracking_control) StdoutLine: {'line': b'running build_ext\n'}
+[3.177339] (trajectory_tracking_control) StdoutLine: {'line': b'Creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory-tracking-control.egg-link (link to .)\n'}
+[3.198431] (trajectory_tracking_control) StdoutLine: {'line': b'Installing cmd_mixer script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control\n'}
+[3.211454] (trajectory_tracking_control) StdoutLine: {'line': b'Installing pid_controller script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control\n'}
+[3.214866] (-) TimerEvent: {}
+[3.227478] (trajectory_tracking_control) StdoutLine: {'line': b'Installing pure_pursuit script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control\n'}
+[3.243041] (trajectory_tracking_control) StdoutLine: {'line': b'Installing waypoint_reader script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control\n'}
+[3.261628] (trajectory_tracking_control) StdoutLine: {'line': b'\n'}
+[3.262378] (trajectory_tracking_control) StdoutLine: {'line': b'Installed /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control\n'}
+[3.264898] (trajectory_tracking_control) StdoutLine: {'line': b'running symlink_data\n'}
+[3.272926] (trajectory_tracking_control) StdoutLine: {'line': b'creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index\n'}
+[3.275472] (trajectory_tracking_control) StdoutLine: {'line': b'creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index/resource_index\n'}
+[3.278516] (trajectory_tracking_control) StdoutLine: {'line': b'creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index/resource_index/packages\n'}
+[3.291486] (trajectory_tracking_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/resource/trajectory_tracking_control -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index/resource_index/packages\n'}
+[3.305714] (trajectory_tracking_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/package.xml -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control\n'}
+[3.314015] (trajectory_tracking_control) StdoutLine: {'line': b'creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/resource\n'}
+[3.314950] (-) TimerEvent: {}
+[3.325701] (trajectory_tracking_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/resource/sonoma_waypoints.txt -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/resource\n'}
+[3.334974] (trajectory_tracking_control) StdoutLine: {'line': b'creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/launch\n'}
+[3.347240] (trajectory_tracking_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/launch/gazebo_trajectory.launch.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/launch\n'}
+[3.377264] (trajectory_tracking_control) CommandEnded: {'returncode': 0}
+[3.415067] (-) TimerEvent: {}
+[3.515587] (-) TimerEvent: {}
+[3.616071] (-) TimerEvent: {}
+[3.689635] (trajectory_tracking_control) JobEnded: {'identifier': 'trajectory_tracking_control', 'rc': 0}
+[3.697345] (-) EventReactorShutdown: {}

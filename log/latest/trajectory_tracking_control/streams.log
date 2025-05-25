@@ -1,0 +1,27 @@
+[4.069s] Invoking command in '/home/ubuntu/workspace/ros2_ws/src/trajectory_tracking_control': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_tracking_control build --build-base /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build install --record /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/install.log --single-version-externally-managed install_data
+[5.278s] running egg_info
+[5.283s] writing ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/PKG-INFO
+[5.291s] writing dependency_links to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/dependency_links.txt
+[5.298s] writing entry points to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/entry_points.txt
+[5.303s] writing requirements to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/requires.txt
+[5.307s] writing top-level names to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/top_level.txt
+[5.354s] reading manifest file '../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/SOURCES.txt'
+[5.434s] writing manifest file '../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/SOURCES.txt'
+[5.439s] running build
+[5.439s] running build_py
+[5.469s] copying trajectory_tracking_control/pid_controller.py -> /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control
+[5.531s] running install
+[5.532s] running install_lib
+[5.601s] copying /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control/pid_controller.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control
+[5.732s] byte-compiling /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control/pid_controller.py to pid_controller.cpython-310.pyc
+[5.815s] running install_data
+[5.869s] running install_egg_info
+[5.885s] removing '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.944s] Copying ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control-0.0.0-py3.10.egg-info
+[6.220s] running install_scripts
+[6.333s] Installing cmd_mixer script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+[6.344s] Installing pid_controller script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+[6.354s] Installing pure_pursuit script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+[6.365s] Installing waypoint_reader script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+[6.378s] writing list of installed files to '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/install.log'
+[6.609s] Invoked command in '/home/ubuntu/workspace/ros2_ws/src/trajectory_tracking_control' returned '0': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_tracking_control build --build-base /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build install --record /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/install.log --single-version-externally-managed install_data

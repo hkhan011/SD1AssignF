@@ -1,0 +1,54 @@
+running egg_info
+creating ../../build/gazebo_environment/gazebo_environment.egg-info
+writing ../../build/gazebo_environment/gazebo_environment.egg-info/PKG-INFO
+writing dependency_links to ../../build/gazebo_environment/gazebo_environment.egg-info/dependency_links.txt
+writing entry points to ../../build/gazebo_environment/gazebo_environment.egg-info/entry_points.txt
+writing requirements to ../../build/gazebo_environment/gazebo_environment.egg-info/requires.txt
+writing top-level names to ../../build/gazebo_environment/gazebo_environment.egg-info/top_level.txt
+writing manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'
+reading manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'
+writing manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build
+creating /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib
+creating /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment
+copying gazebo_environment/odometry_tf.py -> /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment
+copying gazebo_environment/__init__.py -> /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment
+running install
+running install_lib
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment
+copying /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment/odometry_tf.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment
+copying /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment/__init__.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment
+byte-compiling /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment/odometry_tf.py to odometry_tf.cpython-310.pyc
+byte-compiling /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/ament_index
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/ament_index/resource_index
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/ament_index/resource_index/packages
+copying resource/gazebo_environment -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+copying urdf/common_properties.urdf.xacro -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+copying urdf/diff_drive_robot.urdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+copying urdf/oakd.urdf.xacro -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+copying urdf/robot.urdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+copying urdf/robott.urdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+copying urdf/tutorial_robot.urdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/meshes
+copying meshes/oakd_pro.dae -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/meshes
+copying meshes/smart_car.obj -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/meshes
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/worlds
+copying worlds/demo_world.sdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/worlds
+copying worlds/sonoma.sdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/worlds
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/launch
+copying launch/rviz.launch.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/launch
+copying launch/simulation.launch.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/launch
+copying launch/sonoma.launch.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/launch
+creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/rviz
+copying rviz/config.rviz -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/rviz
+running install_egg_info
+Copying ../../build/gazebo_environment/gazebo_environment.egg-info to /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment-1.0.0-py3.10.egg-info
+running install_scripts
+Installing odometry_tf script to /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/gazebo_environment
+writing list of installed files to '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log'

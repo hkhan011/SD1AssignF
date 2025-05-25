@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating trajectory_tracking_control.egg-info
+writing trajectory_tracking_control.egg-info/PKG-INFO
+writing dependency_links to trajectory_tracking_control.egg-info/dependency_links.txt
+writing entry points to trajectory_tracking_control.egg-info/entry_points.txt
+writing requirements to trajectory_tracking_control.egg-info/requires.txt
+writing top-level names to trajectory_tracking_control.egg-info/top_level.txt
+writing manifest file 'trajectory_tracking_control.egg-info/SOURCES.txt'
+reading manifest file 'trajectory_tracking_control.egg-info/SOURCES.txt'
+writing manifest file 'trajectory_tracking_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory-tracking-control.egg-link (link to .)
+Installing cmd_mixer script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+Installing pid_controller script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+Installing pure_pursuit script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+Installing waypoint_reader script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+
+Installed /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control
+running symlink_data
+creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index
+creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index/resource_index
+creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/resource/trajectory_tracking_control -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/package.xml -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control
+creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/resource
+symbolically linking /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/resource/sonoma_waypoints.txt -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/resource
+creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/launch
+symbolically linking /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/launch/gazebo_trajectory.launch.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/launch

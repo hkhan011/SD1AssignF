@@ -1,0 +1,21 @@
+[4.529s] Invoking command in '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_environment build --build-base /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build install --record /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log --single-version-externally-managed install_data
+[6.015s] running egg_info
+[6.020s] writing ../../build/gazebo_environment/gazebo_environment.egg-info/PKG-INFO
+[6.027s] writing dependency_links to ../../build/gazebo_environment/gazebo_environment.egg-info/dependency_links.txt
+[6.033s] writing entry points to ../../build/gazebo_environment/gazebo_environment.egg-info/entry_points.txt
+[6.040s] writing requirements to ../../build/gazebo_environment/gazebo_environment.egg-info/requires.txt
+[6.044s] writing top-level names to ../../build/gazebo_environment/gazebo_environment.egg-info/top_level.txt
+[6.116s] reading manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'
+[6.226s] writing manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'
+[6.229s] running build
+[6.230s] running build_py
+[6.267s] running install
+[6.268s] running install_lib
+[6.391s] running install_data
+[6.630s] running install_egg_info
+[6.651s] removing '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment-1.0.0-py3.10.egg-info' (and everything under it)
+[6.719s] Copying ../../build/gazebo_environment/gazebo_environment.egg-info to /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment-1.0.0-py3.10.egg-info
+[7.031s] running install_scripts
+[7.144s] Installing odometry_tf script to /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/gazebo_environment
+[7.158s] writing list of installed files to '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log'
+[7.189s] Invoked command in '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment' returned '0': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_environment build --build-base /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build install --record /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log --single-version-externally-managed install_data

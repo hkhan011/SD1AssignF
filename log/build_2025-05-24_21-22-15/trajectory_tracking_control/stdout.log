@@ -1,0 +1,46 @@
+running develop
+Removing /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory-tracking-control.egg-link (link to .)
+running egg_info
+writing ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/dependency_links.txt
+writing entry points to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/entry_points.txt
+writing requirements to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/requires.txt
+writing top-level names to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/top_level.txt
+reading manifest file '../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build
+creating /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib
+creating /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control
+copying trajectory_tracking_control/cmd_mixer.py -> /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control
+copying trajectory_tracking_control/pid_controller.py -> /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control
+copying trajectory_tracking_control/pure_pursuit.py -> /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control
+copying trajectory_tracking_control/waypoint_reader.py -> /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control
+copying trajectory_tracking_control/__init__.py -> /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control
+running install
+running install_lib
+creating /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control
+copying /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control/cmd_mixer.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control
+copying /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control/pid_controller.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control
+copying /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control/pure_pursuit.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control
+copying /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control/waypoint_reader.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control
+copying /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control/__init__.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control
+byte-compiling /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control/cmd_mixer.py to cmd_mixer.cpython-310.pyc
+byte-compiling /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control/pid_controller.py to pid_controller.cpython-310.pyc
+byte-compiling /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control/pure_pursuit.py to pure_pursuit.cpython-310.pyc
+byte-compiling /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control/waypoint_reader.py to waypoint_reader.cpython-310.pyc
+byte-compiling /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/trajectory_tracking_control -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control
+copying resource/sonoma_waypoints.txt -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/resource
+copying launch/gazebo_trajectory.launch.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/share/trajectory_tracking_control/launch
+running install_egg_info
+Copying ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cmd_mixer script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+Installing pid_controller script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+Installing pure_pursuit script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+Installing waypoint_reader script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control
+writing list of installed files to '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/install.log'

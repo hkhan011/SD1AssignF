@@ -1,0 +1,56 @@
+[3.474s] Invoking command in '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_environment build --build-base /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build install --record /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log --single-version-externally-managed install_data
+[4.464s] running egg_info
+[4.467s] creating ../../build/gazebo_environment/gazebo_environment.egg-info
+[4.470s] writing ../../build/gazebo_environment/gazebo_environment.egg-info/PKG-INFO
+[4.480s] writing dependency_links to ../../build/gazebo_environment/gazebo_environment.egg-info/dependency_links.txt
+[4.488s] writing entry points to ../../build/gazebo_environment/gazebo_environment.egg-info/entry_points.txt
+[4.492s] writing requirements to ../../build/gazebo_environment/gazebo_environment.egg-info/requires.txt
+[4.496s] writing top-level names to ../../build/gazebo_environment/gazebo_environment.egg-info/top_level.txt
+[4.501s] writing manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'
+[4.558s] reading manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'
+[4.623s] writing manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'
+[4.626s] running build
+[4.627s] running build_py
+[4.631s] creating /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build
+[4.632s] creating /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib
+[4.635s] creating /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment
+[4.643s] copying gazebo_environment/odometry_tf.py -> /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment
+[4.665s] copying gazebo_environment/__init__.py -> /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment
+[4.679s] running install
+[4.680s] running install_lib
+[4.701s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment
+[4.718s] copying /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment/odometry_tf.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment
+[4.753s] copying /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build/lib/gazebo_environment/__init__.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment
+[4.791s] byte-compiling /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment/odometry_tf.py to odometry_tf.cpython-310.pyc
+[4.834s] byte-compiling /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment/__init__.py to __init__.cpython-310.pyc
+[4.867s] running install_data
+[4.875s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/ament_index
+[4.878s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/ament_index/resource_index
+[4.881s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/ament_index/resource_index/packages
+[4.892s] copying resource/gazebo_environment -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/ament_index/resource_index/packages
+[4.915s] copying package.xml -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment
+[4.934s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+[4.943s] copying urdf/common_properties.urdf.xacro -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+[4.967s] copying urdf/diff_drive_robot.urdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+[4.991s] copying urdf/oakd.urdf.xacro -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+[5.016s] copying urdf/robot.urdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+[5.042s] copying urdf/robott.urdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+[5.064s] copying urdf/tutorial_robot.urdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/urdf
+[5.085s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/meshes
+[5.095s] copying meshes/oakd_pro.dae -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/meshes
+[5.376s] copying meshes/smart_car.obj -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/meshes
+[5.465s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/worlds
+[5.476s] copying worlds/demo_world.sdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/worlds
+[5.498s] copying worlds/sonoma.sdf -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/worlds
+[5.518s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/launch
+[5.527s] copying launch/rviz.launch.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/launch
+[5.550s] copying launch/simulation.launch.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/launch
+[5.574s] copying launch/sonoma.launch.py -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/launch
+[5.596s] creating /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/rviz
+[5.606s] copying rviz/config.rviz -> /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/share/gazebo_environment/rviz
+[5.621s] running install_egg_info
+[5.640s] Copying ../../build/gazebo_environment/gazebo_environment.egg-info to /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment-1.0.0-py3.10.egg-info
+[5.893s] running install_scripts
+[6.007s] Installing odometry_tf script to /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/gazebo_environment
+[6.014s] writing list of installed files to '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log'
+[6.038s] Invoked command in '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment' returned '0': PYTHONPATH=/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gazebo_environment build --build-base /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build install --record /home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log --single-version-externally-managed install_data

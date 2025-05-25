@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (gazebo_environment) JobQueued: {'identifier': 'gazebo_environment', 'dependencies': OrderedDict()}
+[0.000644] (trajectory_tracking_control) JobQueued: {'identifier': 'trajectory_tracking_control', 'dependencies': OrderedDict()}
+[0.000868] (gazebo_environment) JobStarted: {'identifier': 'gazebo_environment'}
+[0.098251] (-) TimerEvent: {}
+[0.128053] (trajectory_tracking_control) JobStarted: {'identifier': 'trajectory_tracking_control'}
+[0.198377] (-) TimerEvent: {}
+[0.298829] (-) TimerEvent: {}
+[0.399540] (-) TimerEvent: {}
+[0.500130] (-) TimerEvent: {}
+[0.600609] (-) TimerEvent: {}
+[0.701789] (-) TimerEvent: {}
+[0.802299] (-) TimerEvent: {}
+[0.902796] (-) TimerEvent: {}
+[1.003267] (-) TimerEvent: {}
+[1.103788] (-) TimerEvent: {}
+[1.204365] (-) TimerEvent: {}
+[1.304955] (-) TimerEvent: {}
+[1.405476] (-) TimerEvent: {}
+[1.506135] (-) TimerEvent: {}
+[1.606652] (-) TimerEvent: {}
+[1.707190] (-) TimerEvent: {}
+[1.807736] (-) TimerEvent: {}
+[1.908348] (-) TimerEvent: {}
+[2.008866] (-) TimerEvent: {}
+[2.109475] (-) TimerEvent: {}
+[2.210011] (-) TimerEvent: {}
+[2.310493] (-) TimerEvent: {}
+[2.410973] (-) TimerEvent: {}
+[2.511456] (-) TimerEvent: {}
+[2.611936] (-) TimerEvent: {}
+[2.712460] (-) TimerEvent: {}
+[2.813034] (-) TimerEvent: {}
+[2.913586] (-) TimerEvent: {}
+[3.014142] (-) TimerEvent: {}
+[3.114645] (-) TimerEvent: {}
+[3.215144] (-) TimerEvent: {}
+[3.315711] (-) TimerEvent: {}
+[3.416569] (-) TimerEvent: {}
+[3.517255] (-) TimerEvent: {}
+[3.617935] (-) TimerEvent: {}
+[3.718520] (-) TimerEvent: {}
+[3.819190] (-) TimerEvent: {}
+[3.919797] (-) TimerEvent: {}
+[4.020433] (-) TimerEvent: {}
+[4.121084] (-) TimerEvent: {}
+[4.221739] (-) TimerEvent: {}
+[4.322374] (-) TimerEvent: {}
+[4.423076] (-) TimerEvent: {}
+[4.503341] (gazebo_environment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gazebo_environment', 'build', '--build-base', '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/build', 'install', '--record', '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/workspace/ros2_ws/src/gazebo_environment', 'env': {'VNCDESKTOP': '26dfb9747a27:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '26dfb9747a27', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-dDVf3zBZAC,guid=f262a9b557af53e404016dc96831f4bd', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-YM8K72', 'COLCON_PREFIX_PATH': '/home/ubuntu/workspace/ros2_ws/install', 'ROS_DISTRO': 'humble', 'WINDOWID': '33554438', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/26dfb9747a27:@/tmp/.ICE-unix/75,unix/26dfb9747a27:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-YM8K72/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control:/opt/ros/humble', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment', 'PYTHONPATH': '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[4.530679] (-) TimerEvent: {}
+[4.569823] (trajectory_tracking_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/trajectory_tracking_control', 'build', '--build-base', '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build', 'install', '--record', '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/workspace/ros2_ws/src/trajectory_tracking_control', 'env': {'VNCDESKTOP': '26dfb9747a27:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '26dfb9747a27', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-dDVf3zBZAC,guid=f262a9b557af53e404016dc96831f4bd', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-YM8K72', 'COLCON_PREFIX_PATH': '/home/ubuntu/workspace/ros2_ws/install', 'ROS_DISTRO': 'humble', 'WINDOWID': '33554438', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/26dfb9747a27:@/tmp/.ICE-unix/75,unix/26dfb9747a27:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-YM8K72/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control:/opt/ros/humble', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control', 'PYTHONPATH': '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages:/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control:/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[4.630880] (-) TimerEvent: {}
+[4.731634] (-) TimerEvent: {}
+[4.832135] (-) TimerEvent: {}
+[4.932739] (-) TimerEvent: {}
+[5.033454] (-) TimerEvent: {}
+[5.134049] (-) TimerEvent: {}
+[5.234709] (-) TimerEvent: {}
+[5.335280] (-) TimerEvent: {}
+[5.435905] (-) TimerEvent: {}
+[5.536446] (-) TimerEvent: {}
+[5.637009] (-) TimerEvent: {}
+[5.737558] (-) TimerEvent: {}
+[5.838179] (-) TimerEvent: {}
+[5.938748] (-) TimerEvent: {}
+[6.014681] (gazebo_environment) StdoutLine: {'line': b'running egg_info\n'}
+[6.017692] (trajectory_tracking_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.020572] (gazebo_environment) StdoutLine: {'line': b'writing ../../build/gazebo_environment/gazebo_environment.egg-info/PKG-INFO\n'}
+[6.022481] (trajectory_tracking_control) StdoutLine: {'line': b'writing ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/PKG-INFO\n'}
+[6.026987] (gazebo_environment) StdoutLine: {'line': b'writing dependency_links to ../../build/gazebo_environment/gazebo_environment.egg-info/dependency_links.txt\n'}
+[6.028808] (trajectory_tracking_control) StdoutLine: {'line': b'writing dependency_links to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/dependency_links.txt\n'}
+[6.033254] (gazebo_environment) StdoutLine: {'line': b'writing entry points to ../../build/gazebo_environment/gazebo_environment.egg-info/entry_points.txt\n'}
+[6.035237] (trajectory_tracking_control) StdoutLine: {'line': b'writing entry points to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/entry_points.txt\n'}
+[6.038867] (-) TimerEvent: {}
+[6.040322] (gazebo_environment) StdoutLine: {'line': b'writing requirements to ../../build/gazebo_environment/gazebo_environment.egg-info/requires.txt\n'}
+[6.042126] (trajectory_tracking_control) StdoutLine: {'line': b'writing requirements to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/requires.txt\n'}
+[6.043872] (gazebo_environment) StdoutLine: {'line': b'writing top-level names to ../../build/gazebo_environment/gazebo_environment.egg-info/top_level.txt\n'}
+[6.045770] (trajectory_tracking_control) StdoutLine: {'line': b'writing top-level names to ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/top_level.txt\n'}
+[6.098663] (trajectory_tracking_control) StdoutLine: {'line': b"reading manifest file '../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/SOURCES.txt'\n"}
+[6.116059] (gazebo_environment) StdoutLine: {'line': b"reading manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'\n"}
+[6.139002] (-) TimerEvent: {}
+[6.184274] (trajectory_tracking_control) StdoutLine: {'line': b"writing manifest file '../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info/SOURCES.txt'\n"}
+[6.188379] (trajectory_tracking_control) StdoutLine: {'line': b'running build\n'}
+[6.189391] (trajectory_tracking_control) StdoutLine: {'line': b'running build_py\n'}
+[6.207699] (trajectory_tracking_control) StdoutLine: {'line': b'copying trajectory_tracking_control/cmd_mixer.py -> /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control\n'}
+[6.225665] (gazebo_environment) StdoutLine: {'line': b"writing manifest file '../../build/gazebo_environment/gazebo_environment.egg-info/SOURCES.txt'\n"}
+[6.229479] (gazebo_environment) StdoutLine: {'line': b'running build\n'}
+[6.230414] (gazebo_environment) StdoutLine: {'line': b'running build_py\n'}
+[6.239187] (-) TimerEvent: {}
+[6.245932] (trajectory_tracking_control) StdoutLine: {'line': b'copying trajectory_tracking_control/pid_controller.py -> /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control\n'}
+[6.266682] (gazebo_environment) StdoutLine: {'line': b'running install\n'}
+[6.267935] (gazebo_environment) StdoutLine: {'line': b'running install_lib\n'}
+[6.322084] (trajectory_tracking_control) StdoutLine: {'line': b'running install\n'}
+[6.323221] (trajectory_tracking_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.339328] (-) TimerEvent: {}
+[6.371891] (trajectory_tracking_control) StdoutLine: {'line': b'copying /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control/cmd_mixer.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control\n'}
+[6.390788] (gazebo_environment) StdoutLine: {'line': b'running install_data\n'}
+[6.427846] (trajectory_tracking_control) StdoutLine: {'line': b'copying /home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/build/lib/trajectory_tracking_control/pid_controller.py -> /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control\n'}
+[6.439503] (-) TimerEvent: {}
+[6.540250] (-) TimerEvent: {}
+[6.559245] (trajectory_tracking_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control/cmd_mixer.py to cmd_mixer.cpython-310.pyc\n'}
+[6.626738] (trajectory_tracking_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control/pid_controller.py to pid_controller.cpython-310.pyc\n'}
+[6.630612] (gazebo_environment) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.640398] (-) TimerEvent: {}
+[6.650664] (gazebo_environment) StdoutLine: {'line': b"removing '/home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.719491] (gazebo_environment) StdoutLine: {'line': b'Copying ../../build/gazebo_environment/gazebo_environment.egg-info to /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/python3.10/site-packages/gazebo_environment-1.0.0-py3.10.egg-info\n'}
+[6.726222] (trajectory_tracking_control) StdoutLine: {'line': b'running install_data\n'}
+[6.740607] (-) TimerEvent: {}
+[6.793969] (trajectory_tracking_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.815299] (trajectory_tracking_control) StdoutLine: {'line': b"removing '/home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.840778] (-) TimerEvent: {}
+[6.901081] (trajectory_tracking_control) StdoutLine: {'line': b'Copying ../../build/trajectory_tracking_control/trajectory_tracking_control.egg-info to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/python3.10/site-packages/trajectory_tracking_control-0.0.0-py3.10.egg-info\n'}
+[6.940915] (-) TimerEvent: {}
+[7.030953] (gazebo_environment) StdoutLine: {'line': b'running install_scripts\n'}
+[7.041084] (-) TimerEvent: {}
+[7.141653] (-) TimerEvent: {}
+[7.144782] (gazebo_environment) StdoutLine: {'line': b'Installing odometry_tf script to /home/ubuntu/workspace/ros2_ws/install/gazebo_environment/lib/gazebo_environment\n'}
+[7.158510] (gazebo_environment) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/workspace/ros2_ws/build/gazebo_environment/install.log'\n"}
+[7.188522] (trajectory_tracking_control) StdoutLine: {'line': b'running install_scripts\n'}
+[7.189710] (gazebo_environment) CommandEnded: {'returncode': 0}
+[7.241774] (-) TimerEvent: {}
+[7.303774] (trajectory_tracking_control) StdoutLine: {'line': b'Installing cmd_mixer script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control\n'}
+[7.316055] (trajectory_tracking_control) StdoutLine: {'line': b'Installing pid_controller script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control\n'}
+[7.327721] (trajectory_tracking_control) StdoutLine: {'line': b'Installing pure_pursuit script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control\n'}
+[7.339600] (trajectory_tracking_control) StdoutLine: {'line': b'Installing waypoint_reader script to /home/ubuntu/workspace/ros2_ws/install/trajectory_tracking_control/lib/trajectory_tracking_control\n'}
+[7.341885] (-) TimerEvent: {}
+[7.354347] (trajectory_tracking_control) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/workspace/ros2_ws/build/trajectory_tracking_control/install.log'\n"}
+[7.442225] (-) TimerEvent: {}
+[7.542786] (-) TimerEvent: {}
+[7.554918] (gazebo_environment) JobEnded: {'identifier': 'gazebo_environment', 'rc': 0}
+[7.564140] (trajectory_tracking_control) CommandEnded: {'returncode': 0}
+[7.642932] (-) TimerEvent: {}
+[7.743461] (-) TimerEvent: {}
+[7.844066] (-) TimerEvent: {}
+[7.905292] (trajectory_tracking_control) JobEnded: {'identifier': 'trajectory_tracking_control', 'rc': 0}
+[7.914571] (-) EventReactorShutdown: {}
